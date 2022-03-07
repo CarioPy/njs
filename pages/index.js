@@ -24,8 +24,8 @@ export default function Home ({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Hello all ! My name is Thomas, I am a developer in the making. Next and React are my discovery of 2022 ! </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          My first React App  
+          <a href="https://nextjs.org/learn"> our Next.js tutorial </a>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
