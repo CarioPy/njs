@@ -22,8 +22,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Welcome on Thomas's Website! I'm a 27 year old technology enthousiast
-          and I am passionated about computers.{" "}
+          Welcome on Thomas's Website! I'm a 27 year old technology enthusiast
+          and I am passionate about computers.{" "}
         </p>
         <p>
           Please find here
