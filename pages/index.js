@@ -22,19 +22,19 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Welcome on Thomas's Website! I'm a 27 year old technology enthusiast
-          and I am passionate about computers.{" "}
+          Welcome on Thomas's Website! This is my first website, it has been
+          made using NextJs and ReactJs.{" "}
         </p>
-        <p>
-          Please find here
-          <a href="https://www.instagram.com/thomas.allez.studio/">
+        <h1>
+          Learn
+          <a href="https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website">
             {" "}
-            my Instagram
+            NextJs
           </a>
-        </p>
+        </h1>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Skills</h2>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
